@@ -1,0 +1,44 @@
+body {
+  background-color: white;
+}
+.nav_div{
+  font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+z-index: 986;
+}
+.nav_ul{
+  float: right;
+    padding-left: 32px;
+}
+.ul_words{
+  display: block;
+}
+.ul_icons{
+  display: block;
+      background-position: -64px -29px;
+}
+.image_icon1{
+  color: #5f6368;
+    opacity: 1;
+}
+.image{
+  max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+.image_div{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
